@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "24c2078c73990cdd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ff6660409b1d0db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0f21cfb8014752e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6935ced7cec17bad",
+    "type": "split",
+    "children": [
+      {
+        "id": "f79888deed50db51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "659c11045b8b08dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "b2f4e849c681b68e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "fcc3b2a449abf143",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c1af6bedd792ff75",
+    "type": "split",
+    "children": [
+      {
+        "id": "7606edadac695a10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58bd70ca5fe23212",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "0e574cd6dd73535e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "2507a01d5716eb3d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "041a5a957e32fa3f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "a0f21cfb8014752e",
+  "lastOpenFiles": [
+    "03. 영구메모/00. 인덱스.md",
+    "11. 메모 활용법/메모 작성법.md",
+    "11. 메모 활용법/범용 메모 템플릿 활용 방안.md",
+    "11. 메모 활용법/인덱스 활용법.md",
+    "11. 메모 활용법/영구 메모 템플릿 링크용2.md",
+    "05. 리소스 메모",
+    "10. 템플릿/메모 템플릿.md",
+    "11. 메모 활용법/링크용 템플릿.md",
+    "11. 메모 활용법",
+    "01. 임시메모/TT.md",
+    "무제 파일.canvas",
+    "Welcome.md",
+    "create a link.md",
+    "링크 만들기.md",
+    "2024-12-07.md",
+    "10. 템플릿",
+    "04. 첨부파일",
+    "03. 영구메모",
+    "02. 문헌메모",
+    "01. 임시메모"
+  ]
+}

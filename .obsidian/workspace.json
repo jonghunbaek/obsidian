@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. 임시메모/Java hashCode().md",
+                "file": "01. 임시메모/코테 학습 목록.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java hashCode()"
+              "title": "코테 학습 목록"
             }
           }
         ]
@@ -162,6 +162,7 @@
   "active": "a0f21cfb8014752e",
   "lastOpenFiles": [
     "01. 임시메모/Java hashCode().md",
+    "01. 임시메모/코테 학습 목록.md",
     "03. 영구메모/00. 인덱스.md",
     "11. 메모 활용법/메모 작성법.md",
     "11. 메모 활용법/범용 메모 템플릿 활용 방안.md",

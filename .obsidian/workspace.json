@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "717ab061467e2b2d",
+        "id": "20d24587ad9f0a3d",
         "type": "tabs",
         "children": [
           {
-            "id": "334ac2fd7f3a7e92",
+            "id": "ca60d814e81ab597",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,10 +159,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "334ac2fd7f3a7e92",
+  "active": "659c11045b8b08dd",
   "lastOpenFiles": [
-    "100. 기타 파일/자바 기술 시템 구스성요소.png",
     "05. 도서/00. JVM 밑바닥까지 파헤치기/1장 자바 기술 시스템 소개.md",
+    "100. 기타 파일/자바 기술 시템 구스성요소.png",
     "100. 기타 파일",
     "03. 영구메모/00. 인덱스.md",
     "01. 임시메모/CORS.md",

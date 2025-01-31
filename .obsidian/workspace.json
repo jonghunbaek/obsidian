@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2. 2장 자바 메모리 영역과 메모리 오버플로"
             }
-          },
-          {
-            "id": "925602301238bd82",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.3"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +160,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "925602301238bd82",
+  "active": "a0f21cfb8014752e",
   "lastOpenFiles": [
     "100. 기타 파일/TLAB.png",
     "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",

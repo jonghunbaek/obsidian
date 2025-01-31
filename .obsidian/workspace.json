@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2. 2장 자바 메모리 영역과 메모리 오버플로"
             }
+          },
+          {
+            "id": "925602301238bd82",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -150,16 +164,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "obsidian-git:Open Git source control": false,
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a0f21cfb8014752e",
+  "active": "925602301238bd82",
   "lastOpenFiles": [
     "100. 기타 파일/TLAB.png",
     "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",

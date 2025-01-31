@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "2. 2장 자바 메모리 영역과 메모리 오버플로 의 백링크"
             }
           },
           {

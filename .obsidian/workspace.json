@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2. 2장 자바 메모리 영역과 메모리 오버플로"
             }
-          },
-          {
-            "id": "46358d6954add042",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.3"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,16 +160,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "46358d6954add042",
+  "active": "6cac0a7020c1eca4",
   "lastOpenFiles": [
-    "100. 기타 파일/다이렉트 포인터 방식.png",
+    "05. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 자바 기술 시스템 소개.md",
     "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",
+    "100. 기타 파일/다이렉트 포인터 방식.png",
     "100. 기타 파일/핸들을 이용해 객체에 접근하기.png",
     "100. 기타 파일/포인터 밀치기.png",
     "100. 기타 파일/객체의 메모리 레이아웃.png",
     "100. 기타 파일/TLAB.png",
     "100. 기타 파일/JVM 구조.png",
-    "05. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 자바 기술 시스템 소개.md",
     "100. 기타 파일/그랄 VM 아키텍처.png",
     "100. 기타 파일/자바 기술 시템 구스성요소.png",
     "100. 기타 파일",

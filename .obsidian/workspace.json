@@ -14,14 +14,27 @@
               "type": "markdown",
               "state": {
                 "file": "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "2. 2장 자바 메모리 영역과 메모리 오버플로"
             }
+          },
+          {
+            "id": "32b654fb4fbd7ec6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +173,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6cac0a7020c1eca4",
+  "active": "32b654fb4fbd7ec6",
   "lastOpenFiles": [
     "05. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 자바 기술 시스템 소개.md",
     "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",

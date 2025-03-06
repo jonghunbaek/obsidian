@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "640e8b0337bd93fd",
+        "id": "69faeefa210dff7d",
         "type": "tabs",
         "children": [
           {
-            "id": "ee24969896e39883",
+            "id": "9520c811273dc548",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04. 도서/00. JVM 밑바닥까지 파헤치기/3. 3장 - 가비지 컬렉터와 메모리 할당 전략.md",
+                "file": "10. 템플릿/메모 템플릿.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 3장 - 가비지 컬렉터와 메모리 할당 전략"
+              "title": "메모 템플릿"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "2. 2장 자바 메모리 영역과 메모리 오버플로 의 백링크"
             }
           },
           {
@@ -151,52 +152,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "obsidian-git:Open Git source control": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ee24969896e39883",
+  "active": "9520c811273dc548",
   "lastOpenFiles": [
-    "04. 도서/01. Real MySQL 8.0/1. MySQL 엔진 아키텍처.md",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/3. 3장 - 가비지 컬렉터와 메모리 할당 전략.md",
-    "100. 기타 파일/RM1장 - 백그라운드 스레드.png",
-    "100. 기타 파일/RM 1장 - 핸들러 변수.png",
+    "04. 도서/01. Real MySQL 8.0/1. MySQL 엔진 아키텍처.md",
+    "100. 기타 파일/RM 1장 - Percona 스레드풀.png",
     "100. 기타 파일/RM 1장 - 쿼리 실행구조.png",
     "100. 기타 파일/RM 1장 - 메모리 구조.png",
-    "100. 기타 파일/RM 1장 - Percona 스레드풀.png",
+    "100. 기타 파일/RM1장 - 백그라운드 스레드.png",
+    "100. 기타 파일/RM 1장 - 핸들러 변수.png",
     "100. 기타 파일/RM 1장 - MySQL 아키텍처.png",
+    "04. 도서/무제.md",
     "04. 도서/01. Real MySQL 8.0",
-    "100. 기타 파일/JVM 3장 - ZGC 동작 프로세스.png",
-    "04. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 - 자바 메모리 영역과 메모리 오버플로.md",
-    "100. 기타 파일/JVM 3장 - 가상 메모리 매핑.png",
     "100. 기타 파일/JVM 3장 - 컬러 포인터.png",
+    "100. 기타 파일/JVM 3장 - 가상 메모리 매핑.png",
+    "100. 기타 파일/JVM 3장 - ZGC 동작 프로세스.png",
     "100. 기타 파일/JVM 3장 - 셰넌도어 동작 방식.png",
-    "100. 기타 파일",
     "01. 임시메모/CORS.md",
-    "01. 임시메모/Java hashCode().md",
     "01. 임시메모/코테 학습 목록.md",
-    "100.기타파일/JVM_3장-G1_컬렉터_동작_방식.png.md",
-    "100. 기타 파일",
-    "().md",
-    "05. 도서/00. JVM 밑바닥까지 파헤치기/3. 3장 - 가비지 컬렉터와 메모리 할당 전략.md",
+    "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 자바 메모리 영역과 메모리 오버플로.md",
+    "04. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 - 자바 메모리 영역과 메모리 오버플로.md",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 - 자바 기술 시스템 소개.md",
+    "05. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 자바 기술 시스템 소개.md",
+    "conflict-files-obsidian-git.md",
+    "03. 영구메모/테스트.md",
+    "03. 영구메모/00. 인덱스.md",
+    "01. 임시메모/Java hashCode().md",
+    "10. 템플릿/메모 템플릿.md",
+    "무제 파일.canvas",
+    "100..md",
+    "100. 기타 파일",
     "04. 도서/00. JVM 밑바닥까지 파헤치기",
     "04. 도서",
-    "05. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 - 자바 메모리 영역과 메모리 오버플로.md",
-    "key.md",
-    "05. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 - 자바 기술 시스템 소개.md",
-    "conflict-files-obsidian-git.md",
-    "100. 기타 파일",
-    "03. 영구메모/00. 인덱스.md",
-    "05. 도서/00. JVM 밑바닥까지 파헤치기",
-    "05. 도서",
-    "10. 템플릿/메모 템플릿.md",
     "11. 메모 활용법/메모 작성법.md",
     "11. 메모 활용법/범용 메모 템플릿 활용 방안.md",
     "11. 메모 활용법/인덱스 활용법.md",
@@ -205,9 +202,13 @@
     "11. 메모 활용법/링크용 템플릿.md",
     "11. 메모 활용법",
     "01. 임시메모/TT.md",
-    "무제 파일.canvas",
     "Welcome.md",
     "create a link.md",
-    "링크 만들기.md"
+    "링크 만들기.md",
+    "2024-12-07.md",
+    "10. 템플릿",
+    "04. 첨부파일",
+    "03. 영구메모",
+    "02. 문헌메모"
   ]
 }

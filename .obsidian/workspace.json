@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "6장 - 클래스 파일 구조"
             }
-          },
-          {
-            "id": "7ab314f84597afe0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,10 +161,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ab314f84597afe0",
+  "active": "ee24969896e39883",
   "lastOpenFiles": [
-    "100. 기타 파일/JVM 6장 - 상수 풀 구조.png",
+    "100. 기타 파일/JVM 6장 - Code 속성 예시.png",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/6장 - 클래스 파일 구조.md",
+    "100. 기타 파일/JVM 6장 - 메서드 테이블 구조.png",
+    "100. 기타 파일/JVM 6장 - 필드 테이블 구조.png",
+    "100. 기타 파일/JVM 6장 - 상수 풀 구조.png",
     "100. 기타 파일/JVM 6장 - 상수풀 개수.png",
     "100. 기타 파일/JVM 6장 - 클래스 파일 바이트 코드.png",
     "100. 기타 파일/JVM 6장 - 상수 풀의 항목 타입.png",
@@ -187,9 +177,6 @@
     "04. 도서/01. Real MySQL 8.0/1. MySQL 엔진 아키텍처.md",
     "100. 기타 파일/RM1장 - 백그라운드 스레드.png",
     "100. 기타 파일/RM 1장 - 핸들러 변수.png",
-    "100. 기타 파일/RM 1장 - 쿼리 실행구조.png",
-    "100. 기타 파일/RM 1장 - 메모리 구조.png",
-    "100. 기타 파일/RM 1장 - Percona 스레드풀.png",
     "04. 도서/01. Real MySQL 8.0",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/2. 2장 - 자바 메모리 영역과 메모리 오버플로.md",
     "100. 기타 파일",

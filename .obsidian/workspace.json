@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "6장 - 클래스 파일 구조"
             }
-          },
-          {
-            "id": "bdac8c92880c16a6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,15 +162,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bdac8c92880c16a6",
+  "active": "cdecf8ac0dd011c3",
   "lastOpenFiles": [
+    "04. 도서/00. JVM 밑바닥까지 파헤치기/5장 - 최적화 사례 분석 및 실전.md",
+    "04. 도서/00. JVM 밑바닥까지 파헤치기/6장 - 클래스 파일 구조.md",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 - 자바 기술 시스템 소개.md",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/3. 3장 - 가비지 컬렉터와 메모리 할당 전략.md",
-    "04. 도서/00. JVM 밑바닥까지 파헤치기/6장 - 클래스 파일 구조.md",
     "100. 기타 파일/JVM 6장 - 클래스 파일 구조.jpg",
     "conflict-files-obsidian-git.md",
     "10. 템플릿/메모 템플릿.md",
-    "04. 도서/00. JVM 밑바닥까지 파헤치기/5장 - 최적화 사례 분석 및 실전.md",
     "04. 도서/01. Real MySQL 8.0/1. MySQL 엔진 아키텍처.md",
     "100. 기타 파일/RM 1장 - Percona 스레드풀.png",
     "100. 기타 파일/RM 1장 - 쿼리 실행구조.png",

@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "6장 - 클래스 파일 구조"
             }
+          },
+          {
+            "id": "bdac8c92880c16a6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +175,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "cdecf8ac0dd011c3",
+  "active": "bdac8c92880c16a6",
   "lastOpenFiles": [
     "04. 도서/00. JVM 밑바닥까지 파헤치기/1. 1장 - 자바 기술 시스템 소개.md",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/3. 3장 - 가비지 컬렉터와 메모리 할당 전략.md",

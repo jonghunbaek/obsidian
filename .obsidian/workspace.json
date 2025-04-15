@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c33ce0f7acfb44da",
+        "id": "eca2cdb6bfeb8dda",
         "type": "tabs",
         "children": [
           {
-            "id": "cdecf8ac0dd011c3",
+            "id": "ed5a33fcc7a4221e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "04. 도서/02. 개발자를 위한 레디스/6장 레디스를 메시지 브로커로 사용하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "6장 레디스를 메시지 브로커로 사용하기"
             }
           }
         ]
@@ -162,10 +162,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "659c11045b8b08dd",
+  "active": "ed5a33fcc7a4221e",
   "lastOpenFiles": [
-    "04. 도서/02. 개발자를 위한 레디스/6장 레디스를 메시지 브로커로 사용하기.md",
     "conflict-files-obsidian-git.md",
+    "04. 도서/02. 개발자를 위한 레디스/6장 레디스를 메시지 브로커로 사용하기.md",
     "04. 도서/02. 개발자를 위한 레디스/5장 레디스를 캐시로 사용하기.md",
     "04. 도서/00. JVM 밑바닥까지 파헤치기/9. 10장 - 프론트엔드 컴파일과 최적화.md",
     "100. 기타 파일/Redis - pub,sub.png",

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "04. 도서/02. 개발자를 위한 레디스/6장 레디스를 메시지 브로커로 사용하기.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 206.5
   },
   "right": {
     "id": "c1af6bedd792ff75",
@@ -142,13 +142,23 @@
               "icon": "lucide-list",
               "title": "개요"
             }
+          },
+          {
+            "id": "f9c7de1478b08e4b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,7 +172,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ed5a33fcc7a4221e",
+  "active": "f9c7de1478b08e4b",
   "lastOpenFiles": [
     "04. 도서/00. JVM 밑바닥까지 파헤치기/3. 3장 - 가비지 컬렉터와 메모리 할당 전략.md",
     "04. 도서/02. 개발자를 위한 레디스/6장 레디스를 메시지 브로커로 사용하기.md",

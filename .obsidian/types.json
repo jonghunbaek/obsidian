@@ -6,6 +6,7 @@
     "date": "date",
     "number": "number",
     "author": "text",
-    "from": "text"
+    "from": "text",
+    "category": "multitext"
   }
 }

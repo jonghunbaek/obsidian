@@ -8,7 +8,7 @@ tags:
 date: 2025-08-05
 aliases:
   - 정렬
-복습 풀이: 250805(X)
+복습 풀이: 250805(X), 250816(X)
 ---
 # 1차 풀이
 ```java
@@ -53,3 +53,26 @@ class Solution {
 아무래도 문제의 조건을 정확히 이해하지 못한 것이 패착인듯함
 h번 이상 인용된 논문이 h편 이상이라는 조건에서 'h번 이상'을 citations의 원소로만 한정한 것이 문제였음
 
+## 2차 풀이
+```java
+import java.util.*;
+
+class Solution {
+    // 0, 1, 3, 5, 6
+    // 0, 1, 2, 3, 4
+    public int solution(int[] citations) {
+        Arrays.sort(citations);
+        int result = 0;
+        for (int i = 0; i < citations.length; i++) {
+            int hIndex = citations.length - i;
+            if (citations[i] >= hIndex) {
+                result = hIndex;
+                break;
+            }
+        }
+        
+        return result;
+    }
+}
+```
+컨디션 난조로 지문 이해도가 떨어져 또 틀림 

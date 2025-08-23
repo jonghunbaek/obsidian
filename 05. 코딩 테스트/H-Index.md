@@ -8,7 +8,7 @@ tags:
 date: 2025-08-05
 aliases:
   - 정렬
-복습 풀이: 250805(X), 250816(X)
+복습 풀이: 250805(X), 250816(X), 250823(O)
 ---
 # 1차 풀이
 ```java
@@ -76,3 +76,29 @@ class Solution {
 }
 ```
 컨디션 난조로 지문 이해도가 떨어져 또 틀림 
+
+# 3차 풀이
+```java
+import java.util.*;
+
+class Solution {
+    public int solution(int[] citations) {
+        Arrays.sort(citations);
+        int hIndex = 0;
+        for (int i = 0; i < citations.length; i++) {
+            int h = citations.length - i;
+            if (citations[i] >= h) {
+                hIndex = h;
+                break;
+            }
+        }
+        return hIndex;
+    }
+}
+```
+다시 풀어보니 핵심은 h값을 구할 때, citations\[i] - i로 하던가 citations\[i]하던가 둘 중 하나로 선택할 수 있음
+citations\[i]로 할 경우엔, 아래와 같은 예외 케이스가 생길 수 있기 때문에 첫 번째 방식으로 구해줘야 함
+```java
+[0, 1, 3, 5, 7, 9, 11, 12, 13, 14]
+```
+위와 같은 입력 값의 경우, 정답은 5가 아닌 6이 됨 그러므로 첫 번째 방식을 써야함

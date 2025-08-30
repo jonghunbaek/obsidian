@@ -8,7 +8,7 @@ tags:
 date: 2025-08-05
 aliases:
   - 정렬
-복습 풀이: 250805(X), 250816(X), 250823(O)
+복습 풀이: 250805(X), 250816(X), 250823(O), 250830(O)
 ---
 # 1차 풀이
 ```java
@@ -102,3 +102,24 @@ citations\[i]로 할 경우엔, 아래와 같은 예외 케이스가 생길 수 
 [0, 1, 3, 5, 7, 9, 11, 12, 13, 14]
 ```
 위와 같은 입력 값의 경우, 정답은 5가 아닌 6이 됨 그러므로 첫 번째 방식을 써야함
+
+# 4차 풀이
+```java
+import java.util.*;
+
+class Solution {
+    public int solution(int[] citations) {
+        Arrays.sort(citations);
+        int hIndex = 0;
+        for (int i = 0; i < citations.length; i++) {
+            int target = citations.length - i;
+            if (citations[i] >= target) {
+                hIndex = target;
+                break;
+            }
+        }
+        
+        return hIndex;
+    }
+}
+```

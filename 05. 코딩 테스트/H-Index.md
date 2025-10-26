@@ -8,7 +8,7 @@ tags:
 date: 2025-08-05
 aliases:
   - 정렬
-복습 풀이: 250805(X), 250816(X), 250823(O), 250830(O), 251023(X)
+복습 풀이: 250805(X), 250816(X), 250823(O), 250830(O), 251023(X), 251026(O)
 ---
 # 1차 풀이
 ```java
@@ -148,3 +148,24 @@ class Solution {
 ```
 문제를 제대로 이해하지 못하고, 답안을 기억해서 풀이하는 대표적인 문제
 이러한 문제들은 별도 표기해서 단순히 코드를 써내려가기보단, 문제를 곱씹는 방식으로 풀어야 할듯
+
+# 6차 풀이
+```java
+import java.util.*;
+
+class Solution {
+    public int solution(int[] citations) {
+        Arrays.sort(citations);
+        int result = 0;
+        for (int i = 0; i < citations.length; i++) {
+            int hIdx = citations.length - i;
+            if (citations[i] >= hIdx) {
+                result = hIdx;
+                break;
+            }
+        }
+        
+        return result;
+    }
+}
+```

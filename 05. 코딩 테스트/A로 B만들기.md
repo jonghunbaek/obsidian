@@ -7,7 +7,7 @@ tags:
 date: 2025-08-21
 aliases:
   - 해시
-복습 풀이: 250821(O), 250824(O), 251029()
+복습 풀이: 250821(O), 250824(O), 251103(O)
 ---
 # 1차 풀이
 ```java
@@ -67,3 +67,23 @@ class Solution {
 }
 ```
 더 간단하게 풀 수 있는 다양한 아이디어가 존재함
+
+# 3차 풀이
+```java
+import java.util.*;
+class Solution {
+    public int solution(String before, String after) {
+        String[] split1 = before.split("");
+        String[] split2 = after.split("");
+        Arrays.sort(split1);
+        Arrays.sort(split2);
+        
+        if (split1.length != split2.length) return 0;
+        for (int i = 0; i < split1.length; i++) {
+            if (!split1[i].equals(split2[i])) return 0;
+        }
+        
+        return 1;
+    }
+}
+```

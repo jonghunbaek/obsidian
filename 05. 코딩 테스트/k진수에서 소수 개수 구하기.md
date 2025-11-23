@@ -7,7 +7,7 @@ tags:
 date: 2025-11-18
 aliases:
   - 문자열
-복습 풀이: 251118(O)
+복습 풀이: 251118(O), 251123(O)
 ---
 # 1차 풀이
 ```java
@@ -44,3 +44,31 @@ class Solution {
 - 0을 기준으로 분리 시, 0이 연속된 경우 빈 값으로 숫자를 변환해 에러가 발생
 - isPrime에 최초엔 int타입으로 인자를 전달했으나 계속 런타임 에러가 발생해 long 타입으로 변경
 	- 기본 테케는 통과했으나 채점시 2개의 테케에서 런타임 에러가 발생해 해당 부분이 원인일 것이라 판단
+
+# 2차 풀이
+```java
+class Solution {
+    public int solution(int n, int k) {
+        String target = Integer.toString(n, k);
+        String[] split = target.split("0+");
+        int result = 0;
+        for (int i = 0; i < split.length; i++) {
+            long value = Long.parseLong(split[i]);
+            
+            if (isPrime(value)) result++;
+        }
+        
+        return result;
+    }
+    
+    private boolean isPrime(long value) {
+        if (value <= 1) return false;
+        
+        for (int i = 2; i <= Math.sqrt(value); i++) {
+            if (value % i == 0) return false;
+        }
+        
+        return true;
+    }
+}
+```

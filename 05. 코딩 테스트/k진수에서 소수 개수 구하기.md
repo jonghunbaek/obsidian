@@ -7,7 +7,7 @@ tags:
 date: 2025-11-18
 aliases:
   - 문자열
-복습 풀이: 251118(O), 251123(O)
+복습 풀이: 251118(O), 251123(O), 251208(O)
 ---
 # 1차 풀이
 ```java
@@ -72,3 +72,32 @@ class Solution {
     }
 }
 ```
+
+# 3차 풀이
+```java
+class Solution {
+    public int solution(int n, int k) {
+        String target = Integer.toString(n, k);
+        String[] split = target.split("0+");
+        
+        int count = 0;
+        for (String s : split) {
+            if (isPrime(s)) count++;
+        }
+        
+        return count;
+    }
+    
+    private boolean isPrime(String target) {
+        long value = Long.parseLong(target);
+        if (value <= 1) return false;
+        
+        for (int i = 2; i <= Math.sqrt(value); i++) {
+            if (value % i == 0) return false;
+        }
+        
+        return true;
+    }
+}
+```
+isPrime의 반복문에서 i 값의 상한을 < 로 막아서 처음에 틀렸음
